@@ -8,13 +8,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Form submission handling
-document.getElementById('bookingForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert('Thank you for your interest! We will contact you shortly.');
-    this.reset();
-});
-
 // Navigation highlight on scroll
 window.addEventListener('scroll', function() {
     const nav = document.querySelector('nav');

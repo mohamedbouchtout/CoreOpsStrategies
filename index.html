@@ -12,126 +12,60 @@
     <nav>
         <div class="logo">CoreOps Strategies</div>
         <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#contact" class="cta-button">Book a Meeting</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html" class="cta-button">Book a Meeting</a></li>
         </ul>
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
+    <section class="hero">
         <div class="hero-content">
-            <h1>Transform Your Business with Advanced CRM Solutions</h1>
-            <p>Streamline your operations and boost customer engagement with our customized GoHighLevel solutions</p>
-            <a href="#contact" class="cta-button">Get Started</a>
+            <h1 class="animate-text">Transform Your Business with Advanced CRM Solutions</h1>
+            <p class="hero-subtitle">Streamline your operations and boost customer engagement with our customized GoHighLevel solutions</p>
+            <div class="cta-group">
+                <a href="pricing.html" class="primary-btn">Get Started</a>
+                <a href="#" class="secondary-btn">Watch Demo</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/dashboard-mockup.png" alt="CRM Dashboard" class="floating">
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <h2>About CoreOps Strategies</h2>
-        <div class="about-content">
-            <div class="about-text">
-                <p>We specialize in providing tailored CRM solutions that help businesses grow and succeed. With our expertise in GoHighLevel, we deliver powerful tools that streamline your operations and enhance customer relationships.</p>
-            </div>
-            <div class="about-features">
-                <div class="feature">
-                    <i class="fas fa-chart-line"></i>
+    <!-- Features Section -->
+    <section class="features">
+        <div class="features-container">
+            <h2>Features That Drive Your Business Forward</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
                     <h3>Growth Focused</h3>
+                    <p>Our CRM solutions are designed to help your business scale and thrive.</p>
                 </div>
-                <div class="feature">
-                    <i class="fas fa-users"></i>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
                     <h3>Customer Centric</h3>
+                    <p>Enhance customer relationships and improve satisfaction with our tools.</p>
                 </div>
-                <div class="feature">
-                    <i class="fas fa-cog"></i>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
                     <h3>Customizable Solutions</h3>
+                    <p>Tailor our CRM platform to fit your unique business needs.</p>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <h2>Our Services</h2>
-        <div class="services-grid">
-            <div class="service-card">
-                <i class="fas fa-desktop"></i>
-                <h3>CRM Implementation</h3>
-                <p>Complete setup and customization of your GoHighLevel platform</p>
-            </div>
-            <div class="service-card">
-                <i class="fas fa-graduation-cap"></i>
-                <h3>Training & Support</h3>
-                <p>Comprehensive training and ongoing support for your team</p>
-            </div>
-            <div class="service-card">
-                <i class="fas fa-code"></i>
-                <h3>Custom Integration</h3>
-                <p>Seamless integration with your existing business tools</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing">
-        <h2>Pricing Plans</h2>
-        <div class="pricing-grid">
-            <div class="pricing-card">
-                <h3>Starter</h3>
-                <div class="price">$297/mo</div>
-                <ul>
-                    <li>Basic CRM Setup</li>
-                    <li>Email Marketing</li>
-                    <li>Basic Automation</li>
-                    <li>5 User Accounts</li>
-                </ul>
-                <a href="#contact" class="cta-button">Choose Plan</a>
-            </div>
-            <div class="pricing-card featured">
-                <h3>Professional</h3>
-                <div class="price">$497/mo</div>
-                <ul>
-                    <li>Advanced CRM Setup</li>
-                    <li>Email & SMS Marketing</li>
-                    <li>Advanced Automation</li>
-                    <li>15 User Accounts</li>
-                </ul>
-                <a href="#contact" class="cta-button">Choose Plan</a>
-            </div>
-            <div class="pricing-card">
-                <h3>Enterprise</h3>
-                <div class="price">$997/mo</div>
-                <ul>
-                    <li>Full CRM Suite</li>
-                    <li>All Marketing Features</li>
-                    <li>Custom Automation</li>
-                    <li>Unlimited Users</li>
-                </ul>
-                <a href="#contact" class="cta-button">Choose Plan</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Book a Meeting</h2>
-        <div class="contact-form">
-            <form id="bookingForm">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <input type="tel" placeholder="Phone Number">
-                <select required>
-                    <option value="">Select a Plan</option>
-                    <option value="starter">Starter</option>
-                    <option value="professional">Professional</option>
-                    <option value="enterprise">Enterprise</option>
-                </select>
-                <textarea placeholder="Message (Optional)"></textarea>
-                <button type="submit" class="cta-button">Schedule Meeting</button>
-            </form>
         </div>
     </section>
 
